@@ -1,0 +1,14 @@
+name: NeptunOptimizer
+version: '${version}'
+main: de.neptunsmp.optimizer.NeptunOptimizer
+api-version: '1.21'
+author: NeptunSMP
+description: Entity stacking, XP orb merging and villager trade utilities.
+commands:
+  nopt:
+    description: NeptunOptimizer commands
+    usage: /nopt <help|trades|merge>
+    permission: neptunoptimizer.admin
+permissions:
+  neptunoptimizer.admin:
+    default: op

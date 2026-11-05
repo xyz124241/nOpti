@@ -1,0 +1,23 @@
+# NeptunOptimizer 1.0.0
+merge-interval-ticks: 20
+
+items:
+  enabled: true
+  radius: 2.0
+  show-stack-name: true
+
+xp:
+  enabled: true
+  radius: 3.0
+  max-per-orb: 32767
+
+mobs:
+  enabled: true
+  radius: 4.0
+  max-stack: 50
+  # true = mobs bleiben stehen und greifen nicht an. Standard: false.
+  disable-ai: false
+  types:
+    - ZOMBIE
+    - SKELETON
+    - WITHER_SKELETON
